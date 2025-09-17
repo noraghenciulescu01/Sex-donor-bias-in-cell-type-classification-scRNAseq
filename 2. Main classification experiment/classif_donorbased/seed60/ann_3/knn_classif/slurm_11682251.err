@@ -1,0 +1,18 @@
+/winhome/noraghenciules/classif_donorbased/seed60/ann_3/knn_classif/helper_functions_final.py:49: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  y_male = y[male_indices]
+/winhome/noraghenciules/classif_donorbased/seed60/ann_3/knn_classif/helper_functions_final.py:53: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  y_female = y[female_indices]
+/winhome/noraghenciules/classif_donorbased/seed60/ann_3/knn_classif/helper_functions_final.py:62: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  y_female_train, y_female_test = y_female[train_idx], y_female[test_idx]
+/winhome/noraghenciules/classif_donorbased/seed60/ann_3/knn_classif/helper_functions_final.py:69: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  y_male_train, y_male_test = y_male[train_idx], y_male[test_idx]
+/winhome/noraghenciules/classif_donorbased/seed60/ann_3/knn_classif/helper_functions_final.py:77: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  y_male_test = y_male_test[male_shuffle_indices]
+/winhome/noraghenciules/classif_donorbased/seed60/ann_3/knn_classif/helper_functions_final.py:80: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  y_female_test = y_female_test[female_shuffle_indices]
+/home/nfs/noraghenciules/.conda/envs/env/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/winhome/noraghenciules/classif_donorbased/seed60/ann_3/knn_classif/helper_functions_final.py:169: RuntimeWarning: invalid value encountered in divide
+  cm_normalized = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
+/home/nfs/noraghenciules/.conda/envs/env/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
