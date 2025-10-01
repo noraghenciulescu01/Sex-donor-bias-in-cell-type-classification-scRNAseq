@@ -28,7 +28,7 @@ We use two classification settings: naive and donor-based. For each setting, we 
  
 #### 4. Analysis per cell type
  In the final notebook, we analyze the performance of the classifier for each individual cell type. We again use the classif_naive and classif_donorbased folders to retrieve evaluation metrics (confusion matrices). It also makes use of the proportion_dictionary.pickle files generated in notebook 2. The results are:
- * a line plot and a heat map that show the classification trend for each cell type; these plots are not saved explicitly into the results folders, but specific plots are retrieved to make Main Figure 3 and Supplementary Figures 6-9
+ * a line plot and a heat map that show the classification trend for each cell type; these plots are not saved explicitly into the results folders, but specific plots are retrieved to make Main Figure 3, the first two columns of Supplementary Figure 6, Supplementary Figure 7 and Supplementary Figure 9
  * a df_classification_trend.pickle file which is saved into the results_naive or results_donorbased folder; these are Supplementary Tables 1 and 2
 
 #### helper_pickle_files folder
