@@ -10,7 +10,7 @@ This includes:
 
  #### 2. Differential abundance analysis of HLCA core
 This contains the entire differential abundance analysis. Relevant results are:
- * generation of diagnostic plots for Supplementary FIgure 1
+ * generation of diagnostic plots for Supplementary Figure 1
  * visualization of differential abundance results on the UMAP (Main Figure 1b)
  * update of the cell_type_info.pickle dictionary into cell_type_info_with_DA.pickle that also includes the number and proportion of differentially abundant neighborhoods for each cell type
  * visualization of results by cell type in violin plots, combined with information of number of cells, number of individuals and number of datasets using the cell_type_info.pickle dictionary (Main Figure 1c)
