@@ -35,7 +35,7 @@ prop = 1
 
 print(f"PROPORTION OF FEMALE CELLS: {prop}", flush=True)
 print('Training and testing...', flush=True)
-male_pred, male_true_labels, female_pred, female_true_labels = final_train_clf_and_predict(counts, cell_type_labels, sex_labels, individual_labels, prop, classifier = 'rf')
+male_pred, male_true_labels, female_pred, female_true_labels = train_clf_and_predict(counts, cell_type_labels, sex_labels, individual_labels, prop, classifier = 'rf')
 print('Evaluating...', flush=True)
 male_metrics = evaluate_clf(male_pred, male_true_labels, classes, prop, 'male')
 female_metrics = evaluate_clf(female_pred, female_true_labels, classes, prop, 'female')
