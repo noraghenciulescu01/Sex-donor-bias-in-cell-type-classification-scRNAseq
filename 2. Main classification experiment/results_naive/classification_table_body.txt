@@ -1,0 +1,61 @@
+AT0 & -0.108 & 0.154 & True & True & 0.311 & \distinct \\
+AT1 & -0.000 & 0.007 & True & True & 0.007 & \inconclusive \\
+AT2 & -0.005 & 0.007 & True & True & 0.010 & \inconclusive \\
+AT2 proliferating & -0.017 & 0.099 & True & True & 0.138 & \distinct \\
+Adventitial fibroblasts & -0.101 & -0.035 & False & True & 0.084 & \nondistinct \\
+Alveolar Mph CCL3+ & -0.410 & 0.315 & True & True & 0.596 & \distinct \\
+Alveolar Mph MT-positive & 0.867 & 0.597 & False & False & 0.421 & \nondistinct \\
+Alveolar Mph proliferating & -0.056 & 0.172 & True & True & 0.115 & \distinct \\
+Alveolar fibroblasts & 0.013 & 0.146 & False & True & 0.152 & \nondistinct \\
+Alveolar macrophages & -0.032 & 0.016 & True & True & 0.042 & \distinct \\
+B cells & -0.004 & -0.004 & False & False & 0.010 & \inconclusive \\
+Basal resting & -0.035 & -0.003 & False & True & 0.041 & \inconclusive \\
+CD4 T cells & 0.032 & 0.095 & False & True & 0.076 & \nondistinct \\
+CD8 T cells & -0.077 & -0.023 & False & True & 0.064 & \nondistinct \\
+Classical monocytes & -0.006 & 0.075 & True & True & 0.068 & \distinct \\
+Club (nasal) & -0.041 & 0.057 & True & True & 0.100 & \distinct \\
+Club (non-nasal) & -0.045 & 0.124 & True & True & 0.128 & \distinct \\
+DC1 & -0.113 & 0.014 & True & False & 0.216 & \nondistinct \\
+DC2 & 0.042 & 0.149 & False & True & 0.096 & \nondistinct \\
+Deuterosomal & -0.023 & 0.021 & True & True & 0.058 & \distinct \\
+EC aerocyte capillary & -0.027 & -0.015 & False & True & 0.020 & \inconclusive \\
+EC arterial & -0.085 & 0.015 & True & True & 0.084 & \distinct \\
+EC general capillary & -0.018 & 0.021 & True & True & 0.047 & \distinct \\
+EC venous pulmonary & -0.082 & 0.016 & True & True & 0.063 & \distinct \\
+EC venous systemic & 0.005 & 0.073 & False & True & 0.055 & \inconclusive \\
+Goblet (bronchial) & -0.499 & 0.249 & True & True & 0.615 & \distinct \\
+Goblet (nasal) & -0.017 & 0.028 & True & True & 0.057 & \distinct \\
+Goblet (subsegmental) & -0.037 & 0.052 & True & True & 0.111 & \distinct \\
+Hematopoietic stem cells & 0.364 & 0.795 & False & False & 0.417 & \nondistinct \\
+Hillock-like & -0.119 & 0.210 & True & True & 0.241 & \distinct \\
+Interstitial Mph perivascular & -0.247 & -0.149 & False & True & 0.097 & \nondistinct \\
+Ionocyte & -0.027 & -0.009 & False & False & 0.035 & \inconclusive \\
+Lymphatic EC differentiating & -0.586 & -0.805 & False & False & 0.480 & \nondistinct \\
+Lymphatic EC mature & -0.010 & 0.008 & True & True & 0.012 & \inconclusive \\
+Lymphatic EC proliferating & 0.000 & 0.000 & False & False & 0.000 & \inconclusive \\
+Mast cells & 0.005 & 0.005 & False & False & 0.006 & \inconclusive \\
+Mesothelium & -0.887 & -0.818 & False & False & 0.276 & \nondistinct \\
+Migratory DCs & -0.024 & -0.058 & False & False & 0.146 & \nondistinct \\
+Monocyte-derived Mph & -0.169 & 0.149 & True & True & 0.259 & \distinct \\
+Multiciliated (nasal) & -0.161 & 0.250 & True & True & 0.361 & \distinct \\
+Multiciliated (non-nasal) & -0.027 & -0.004 & False & True & 0.029 & \inconclusive \\
+Myofibroblasts & -0.077 & 0.244 & True & True & 0.223 & \distinct \\
+NK cells & 0.003 & 0.049 & False & True & 0.047 & \inconclusive \\
+Neuroendocrine & 0.000 & 0.000 & False & False & 0.000 & \inconclusive \\
+Non-classical monocytes & -0.151 & 0.020 & True & True & 0.182 & \distinct \\
+Peribronchial fibroblasts & -0.044 & 0.113 & True & True & 0.080 & \distinct \\
+Pericytes & -0.001 & -0.007 & False & False & 0.009 & \inconclusive \\
+Plasma cells & -0.000 & -0.001 & False & True & 0.003 & \inconclusive \\
+Plasmacytoid DCs & -0.009 & -0.055 & False & False & 0.051 & \nondistinct \\
+SM activated stress response & -0.437 & 0.158 & True & True & 0.498 & \distinct \\
+SMG duct & -0.252 & -0.037 & False & True & 0.183 & \nondistinct \\
+SMG mucous & 0.000 & 0.032 & False & False & 0.023 & \inconclusive \\
+SMG serous (bronchial) & -0.085 & -0.056 & False & True & 0.078 & \nondistinct \\
+SMG serous (nasal) & 0.075 & 0.020 & False & False & 0.149 & \nondistinct \\
+Smooth muscle & 0.013 & 0.022 & False & True & 0.013 & \inconclusive \\
+Smooth muscle FAM83D+ & -0.355 & 0.048 & True & False & 0.561 & \nondistinct \\
+Subpleural fibroblasts & -0.113 & 0.242 & True & True & 0.320 & \distinct \\
+Suprabasal & -0.108 & 0.150 & True & True & 0.216 & \distinct \\
+T cells proliferating & 0.347 & 0.303 & False & False & 0.164 & \nondistinct \\
+Tuft & -0.293 & -0.085 & False & False & 0.254 & \nondistinct \\
+pre-TB secretory & -0.337 & -0.116 & False & False & 0.284 & \nondistinct \\
