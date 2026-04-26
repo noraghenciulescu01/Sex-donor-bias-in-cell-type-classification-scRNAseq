@@ -11,6 +11,7 @@ We use two classification settings: **naive** and **donor-based**. For each sett
  * within each annotation folder, one sub-folder for each classifier used (KNN or RF)
  
  Thus:
+ ```text
     classif_naive/ or classif_donorbased/
     ├── seed17/          # random seed
     │   ├── ann_2/      # annotation level
@@ -20,6 +21,7 @@ We use two classification settings: **naive** and **donor-based**. For each sett
     │   ├── ann_4/
     │   └── ann_finest/
     ...
+ ```
 
  Within the sub-sub-subfolders corresponding to each classifier, we generate one .py file (and one corresponding .sh file) for each proportion of female cells in the training set. So, for instance in the knn_classif sub-subfolder, we generate: knn_0.py (and knn_0.sh) for the training set with 0% female cells, knn_01.py (knn_01.sh) for the training set with 10% female cells and so on, up to knn_1.py (knn_1.sh) for the 100% female training set. Thus, we have 11 .py files (and 11.sh files) in total, for both the KNN and the RF classifiers, for all annotation levels and seeds. Within the same folder (e.g. all files in seed17/ann_2/knn_classif), the files only differ in the prop parameter, which controls the proportion of female cells in the training set. Across different sub-folders, they differ based on the classifier, the annotation level and/or the random seed used.
 
@@ -32,6 +34,7 @@ We use two classification settings: **naive** and **donor-based**. For each sett
  If you simply run the template generation notebook, this will generate the classif_naive and classif_donorbased folders without the corresponding classification results. However, in this repo, you find the classif_naive and classif_donorsbased folders **including the classification results**, i.e. after each script has been run on the cluster. These results are provided such that all other notebooks can be re-run for reproducibility. **For reproduction of the classification results themselves, running of each script would have to be done manually on a cluster.**
 
  Thus the final folders included here contain the following:
+ ```text
  knn_classif/
     ├── cms/    # folder of confusion matrices as pngs
     ├── norm_cms/    # folder of normalised confusion matrices as pngs
@@ -46,6 +49,7 @@ We use two classification settings: **naive** and **donor-based**. For each sett
     ...
     ├── knn_1.py    # classification script for 100% female proportion in training set
     ├── knn_1.sh    # SLURM script that calls knn_1.py
+ ```
  
 #### 2. Determine train & test proportions
  This is mostly a verification notebook - we look at how much the cell type proportions change as we vary the proportion of female cells in the training set, to ensure that every cell type has at least some representation in the training and test set. This is done using barplots but these are not saved or included in the manuscript.
