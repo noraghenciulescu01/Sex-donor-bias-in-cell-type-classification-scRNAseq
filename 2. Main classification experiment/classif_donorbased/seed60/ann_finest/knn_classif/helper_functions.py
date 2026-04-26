@@ -239,36 +239,3 @@ def fixed_select_indices_by_proportion(sex_labels, proportion_female):
 
     return np.concatenate([selected_female_indices, selected_male_indices])
 
-
-
-
-def check_missing_classes_in_folds(predictions, true_labels, classes):
-    '''
-    Checks if there are folds that miss predictions or true labels for a class.
-    The latter can happen if there are fewer samples of a certain class than folds.
-    '''
-    
-    missing_info = [] 
-    
-    for fold_index, (y_pred, y_true) in enumerate(zip(predictions, true_labels)):
-        unique_pred_classes = set(np.unique(y_pred))
-        unique_true_classes = set(np.unique(y_true))
-        all_classes_set = set(classes)
-
-        missing_in_pred = all_classes_set - unique_pred_classes
-        missing_in_true = all_classes_set - unique_true_classes
-
-        if missing_in_pred or missing_in_true:
-            missing_info.append({
-                'fold': fold_index,
-                'missing_in_predictions': sorted(list(missing_in_pred)), 
-                'missing_in_true_labels': sorted(list(missing_in_true))
-            })
-
-    if missing_info:
-        for info in missing_info:
-            print(f"Fold {info['fold']} is missing predictions for classes: {info['missing_in_predictions']}")
-            print(f"Fold {info['fold']} is missing true labels for classes: {info['missing_in_true_labels']}")
-    else:
-        print("All folds have predictions and true labels for all classes.")
-
